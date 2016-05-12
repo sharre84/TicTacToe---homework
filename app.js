@@ -26,6 +26,7 @@ for(var i = 0; i < squares.length; i += 1)  {
   squares[i].addEventListener("click", function() {
     console.log(this)
 
+
 // check if the square has already been marked
 // mark an x or an o
 // check to see if thers a winner

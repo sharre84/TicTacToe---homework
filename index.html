@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div id="board">
-      <div class="square">1</div>
-      <div class="square">2</div>
-      <div class="square">3</div>
-      <div class="square">4</div>
-      <div class="square">5</div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
+<head>
+  <meta charset="utf-8">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+  integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>TicTacToe</h1>
 
+  <div id="board" class="board">
+    <div id='square1' class="square"></div>
+    <div id='square2' class="square"></div>
+    <div id='square3' class="square"></div>
+    <div id='square4' class="square"></div>
+    <div id='square5' class="square"></div>
+    <div id='square6' class="square"></div>
+    <div id='square7' class="square"></div>
+    <div id='square8' class="square"></div>
+    <div id='square9' class="square"></div>
+  </div>
+
+  <div class="scoreBoard">
+    <div class="score">
+      Player 1 &nbsp;&nbsp; | &nbsp;&nbsp; Player 2
     </div>
 
+  </div>
+  <div class="buttons">
+    <button id='resetGame' type="button" name="button">Clear</button><br>
+    <button id='resetScore' type="button" name="button">Reset</button>
 
-<script src="app.js"></script>
-  </body>
+  </div>
+
+  <script src="app.js"></script>
+</body>
 </html>
